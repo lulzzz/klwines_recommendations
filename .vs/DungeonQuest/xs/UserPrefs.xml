@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="Game">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DungeonQuest" expanded="True" selected="True">
+            <Node name="Domain" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="WebApi" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Silo PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/richardbeamish/Projects/DungeonQuest/Grains/MapsGrain.cs" relfile="Grains/MapsGrain.cs" line="14" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Game" Name="Game">
+      <Items>
+        <StartupItem ItemId="{2F8BB9BD-7F98-4CC3-A2E1-EC9341CE379F}" ItemName="Silo" ConfigurationId="Default" />
+        <StartupItem ItemId="{6B6A13C1-19F5-4071-A0F9-21BC483C6812}" ItemName="WebApi" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+</Properties>

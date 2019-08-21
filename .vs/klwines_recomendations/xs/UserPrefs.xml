@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{6B6A13C1-19F5-4071-A0F9-21BC483C6812}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Grains/ProductGrain.cs">
+    <Files>
+      <File FileName="WebApi/Controllers/ProductController.cs" Line="33" Column="1" />
+      <File FileName="GrainInterfaces/EmptyInterface.cs" Line="8" Column="1" />
+      <File FileName="WebApi/Controllers/Product.cs" Line="12" Column="2" />
+      <File FileName="Grains/ProductGrain.cs" Line="2" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="klwines_recomendations" expanded="True">
+            <Node name="Domain" expanded="True" />
+            <Node name="GrainInterfaces" expanded="True" />
+            <Node name="Grains" expanded="True">
+              <Node name="ProductGrain.cs" selected="True" />
+            </Node>
+            <Node name="WebApi" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="ProjectDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.WebApi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

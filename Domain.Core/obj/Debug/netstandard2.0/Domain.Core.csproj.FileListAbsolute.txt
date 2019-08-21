@@ -1,0 +1,9 @@
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/bin/Debug/netstandard2.0/Domain.Core.deps.json
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/bin/Debug/netstandard2.0/Domain.Core.dll
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/bin/Debug/netstandard2.0/Domain.Core.pdb
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.csprojAssemblyReference.cache
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.csproj.CoreCompileInputs.cache
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.AssemblyInfoInputs.cache
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.AssemblyInfo.cs
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.dll
+/Users/richardbeamish/Projects/DungeonQuest/Domain.Core/obj/Debug/netstandard2.0/Domain.Core.pdb

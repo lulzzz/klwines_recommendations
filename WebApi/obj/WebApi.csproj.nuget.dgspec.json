@@ -1,0 +1,244 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/richardbeamish/Projects/klwines_recommendations/WebApi/WebApi.csproj": {}
+  },
+  "projects": {
+    "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/Domain.Core.csproj",
+        "projectName": "Domain.Core",
+        "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/Domain.Core.csproj",
+        "packagesPath": "/Users/richardbeamish/.nuget/packages/",
+        "outputPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/richardbeamish/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/richardbeamish/Projects/klwines_recommendations/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardbeamish/Projects/klwines_recommendations/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain/Domain.csproj",
+        "packagesPath": "/Users/richardbeamish/.nuget/packages/",
+        "outputPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/richardbeamish/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/GrainInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/GrainInterfaces.csproj",
+        "projectName": "GrainInterfaces",
+        "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/GrainInterfaces.csproj",
+        "packagesPath": "/Users/richardbeamish/.nuget/packages/",
+        "outputPath": "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/richardbeamish/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/Domain.Core.csproj": {
+                "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain.Core/Domain.Core.csproj"
+              },
+              "/Users/richardbeamish/Projects/klwines_recommendations/Domain/Domain.csproj": {
+                "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Orleans.CodeGenerator.MSBuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
+            "Microsoft.Orleans.Core.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/Users/richardbeamish/Projects/klwines_recommendations/WebApi/WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/richardbeamish/Projects/klwines_recommendations/WebApi/WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/WebApi/WebApi.csproj",
+        "packagesPath": "/Users/richardbeamish/.nuget/packages/",
+        "outputPath": "/Users/richardbeamish/Projects/klwines_recommendations/WebApi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/richardbeamish/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/GrainInterfaces.csproj": {
+                "projectPath": "/Users/richardbeamish/Projects/klwines_recommendations/GrainInterfaces/GrainInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Orleans.Client": {
+              "target": "Package",
+              "version": "[2.3.5, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

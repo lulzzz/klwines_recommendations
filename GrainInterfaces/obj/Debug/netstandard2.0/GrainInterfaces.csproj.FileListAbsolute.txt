@@ -1,0 +1,16 @@
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/GrainInterfaces.deps.json
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/GrainInterfaces.dll
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/GrainInterfaces.pdb
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/Domain.Core.dll
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/Domain.dll
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/Domain.pdb
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/bin/Debug/netstandard2.0/Domain.Core.pdb
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.csprojAssemblyReference.cache
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.csproj.OrleansCodeGenInputs.cache
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.orleans.g.cs
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.csproj.CoreCompileInputs.cache
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.AssemblyInfoInputs.cache
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.AssemblyInfo.cs
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.csproj.CopyComplete
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.dll
+/Users/richardbeamish/Projects/DungeonQuest/GrainInterfaces/obj/Debug/netstandard2.0/GrainInterfaces.pdb
