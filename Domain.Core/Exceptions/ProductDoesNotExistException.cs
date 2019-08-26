@@ -1,10 +1,8 @@
 ﻿using System;
 namespace Domain.Core.Exceptions
 {
-    public class ProductDoesNotExistException
+    public class ProductDoesNotExistException : Exception
     {
-        public ProductDoesNotExistException()
-        {
-        }
+
     }
 }

@@ -12,5 +12,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Rooms.cs" />
+    <Compile Remove="SampleProduct.cs" />
+    <Compile Remove="SampleData.cs" />
   </ItemGroup>
 </Project>

@@ -20,12 +20,12 @@ namespace Silo
                     options.ClusterId = "dev";
                     options.ServiceId = "server";
                 })
-                .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(PlayerGrain).Assembly).WithReferences())
+                .ConfigureApplicationParts(parts => parts.AddApplicationPart(typeof(RecommendationGrain).Assembly).WithReferences())
                 //.AddMemoryGrainStorageAsDefault()
                 .ConfigureLogging(logging => logging.AddConsole())
                 .AddMongoDBGrainStorageAsDefault(options =>
                 {
-                    options.DatabaseName = "Game";
+                    options.DatabaseName = "ProductRecommendations";
                     options.ConnectionString = "mongodb://localhost:27017/admin";
                 })
                 .Build();
