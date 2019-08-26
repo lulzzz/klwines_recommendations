@@ -8,7 +8,7 @@ namespace GrainInterfaces
 {
     public interface IRecommendationGrain : IGrainWithIntegerKey
     {
-        Task<List<string>> GetRecommendations(string productId);
+        Task<string[]> GetRecommendations(int productId);
         Task RequiresUpdate();
         Task UpdateRecommendations();
     }

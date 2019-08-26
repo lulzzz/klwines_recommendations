@@ -13,29 +13,28 @@ namespace WebApi.Controllers
     [ApiController]
     public class RecommendationController : ControllerBase
     {
-        private readonly string ProductId;
+        private readonly int Recommendation;
         private readonly Lazy<IClusterClient> Client;
         private readonly IRecommendationGrain RecommendationGrain;
 
-        public RecommendationController(Lazy<IClusterClient> client, string productId)
+        public RecommendationController(Lazy<IClusterClient> client)
         {
             Client = client;
-            ProductId = productId;
-            RecommendationGrain = this.Client.Value.GetGrain<IRecommendationGrain>(ProductId);
+            RecommendationGrain = this.Client.Value.GetGrain<IRecommendationGrain>(Recommendation);
         }
 
 
-        [HttpGet("")]
-        public async Task<List<string>> GetRecommendations()
+        [HttpGet("productId")] //returns the recommendations given a product id
+        public async Task<string[]> GetRecommendations(int productId)
         {
-            var recommendations = await RecommendationGrain.GetRecommendations(ProductId);
+            var recommendations = await RecommendationGrain.GetRecommendations(productId);
             return recommendations;
         }
 
-        [HttpPost("latestRecVersion")]
-        public async Task UpdateRecVersion(int latestRecVersion)
+        [HttpPut("")] //method called by machine learning application after it is ran
+        public async Task UpdateRecVersion()
         {
-
+            await RecommendationGrain.RequiresUpdate();
         }
     }
 }
