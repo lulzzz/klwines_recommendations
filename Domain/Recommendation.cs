@@ -1,9 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace Domain
 {
     public class Recommendation
     {
-        public List<ProductSKUs> Recommendations;
+        public string ProductId;
+        public List<SKU> RecommendedSKUs;
     }
 }

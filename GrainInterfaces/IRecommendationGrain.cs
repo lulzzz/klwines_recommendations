@@ -1,15 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Orleans;
 using Domain;
+using Orleans;
 
 namespace GrainInterfaces
 {
-    public interface IRecommendationGrain : IGrainWithIntegerKey
+    public interface IRecommendationGrain : IGrainWithStringKey
     {
-        Task<string[]> GetRecommendations(int productId);
-        Task RequiresUpdate();
-        Task UpdateRecommendations();
+        Task<List<SKU>> GetRecommendedSKUs(string productId);
     }
 }
